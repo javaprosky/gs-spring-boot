@@ -82,5 +82,6 @@
                 </executions>
             </plugin>
         </plugins>
+        <defaultGoal>clean install sonar:sonar</defaultGoal>
     </build>
 </project>
