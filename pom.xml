@@ -42,17 +42,18 @@
         <java.version>1.8</java.version>
     </properties>
 <profiles>
-<profile>
-<id>sonar</id>
-<activation>
-<activeByDefault>true</activeByDefault>
-</activation>
-<properties>
-<sonar.host.url>
-http://10.20.200.101:9000
-</sonar.host.url>
-</properties>
-</profile>
+    <profile>
+    <id>sonar</id>
+    <activation>
+    <activeByDefault>true</activeByDefault>
+    </activation>
+    <properties>
+    <sonar.host.url>
+    http://10.20.200.101:9000
+    </sonar.host.url>
+    </properties>
+    </profile>
+</profiles>
     <build>
         <plugins>
             <plugin>
