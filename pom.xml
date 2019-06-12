@@ -31,11 +31,13 @@
             <scope>test</scope>
         </dependency>
         <!-- end::tests[] -->
+        <!--
       <dependency>
       <groupId>org.sonarsource.scanner.maven</groupId>
       <artifactId>sonar-maven-plugin</artifactId>
       <version>3.2</version>
     </dependency>  
+-->
     </dependencies>
 
     <properties>
@@ -61,6 +63,7 @@
             </plugin>
         </plugins>
     </build>
+<!--    
 <profiles>
     <profile>
       <id>sonar-coverage</id>
@@ -111,4 +114,5 @@
          </properties>
          </profile>           
   </profiles>
+-->
 </project>
